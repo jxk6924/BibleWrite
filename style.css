@@ -1,0 +1,68 @@
+:root {
+  --bg-color: #fff;
+  --bg-transparent: rgba(255, 255, 255, 0);
+  --border-color: #808080;
+}
+
+@page {
+  size: letter portrait;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.manuscript-container {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+/* Align */
+body {
+  margin: 0;
+  padding: 8px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  page-break-before: always;
+  border-collapse: separate;
+  border-spacing: 0 7px;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--border-color);
+  font-family: "Nanum Gothic", sans-serif;
+  color: #c5c5c5;
+}
+
+td {
+  width: 18px;
+  height: 18px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: "Nanum Gothic", sans-serif;
+  border-right: hidden;
+  font-size: 15pt;
+}
+
+.initCol {
+  border-left: hidden;
+  color: #808080;
+}
+
+.chapter {
+  border-left: hidden;
+  border-right: hidden;
+  border-top: hidden;
+}
